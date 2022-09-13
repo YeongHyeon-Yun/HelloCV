@@ -114,7 +114,7 @@ int main()
 		return -1;
 	}
 
-	namedWindow("image", WINDOW_AUTOSIZE);
+	namedWindow("image", WINDOW_NORMAL);
 	imshow("image", img);
 
 	waitKey();
@@ -122,7 +122,6 @@ int main()
 	waitKey();
 	resizeWindow("image", 600, 300);
 	waitKey();
-	printf("¹è¼­Çü¾ó±¼");
 
 	return 0;
 }
