@@ -122,6 +122,8 @@ int main()
 	waitKey();
 	resizeWindow("image", 600, 300);
 	waitKey();
+	printf("¹è¼­Çü¾ó±¼");
+
 	return 0;
 }
 #endif
